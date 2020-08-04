@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1695" />
+    <!--<PackageReference Include="GraphQL" Version="2.4"   />-->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+    <!-- Version="3.0.0-preview-1648" -->
+  </ItemGroup>
+  
+<!-- 
+  <ItemGroup>
+    <ProjectReference Include="..\Visma.Business.Cloud.GraphQL.DataAccess\Visma.Business.Cloud.GraphQL.DataAccess.csproj" />
+  </ItemGroup> -->
+
+</Project>
