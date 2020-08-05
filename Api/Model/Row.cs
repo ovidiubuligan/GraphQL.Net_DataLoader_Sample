@@ -25,8 +25,7 @@ namespace Api.Model
     {
         public bool Equals([AllowNull] Key x, [AllowNull] Key y)
         {
-            // this method is never called
-            throw new NotImplementedException();
+            return x.Value == y.Value;
         }
 
         public int GetHashCode([DisallowNull] Key key)

@@ -91,7 +91,7 @@ namespace Api.Types
                                          row =>
                                          {
                                              return row.Key;
-                                         });
+                                         }, new KeyComparer());
 
                                     return lookup;
                                 },
